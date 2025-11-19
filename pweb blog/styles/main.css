@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.headers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1500px;
+    margin-left: 30px;
+    margin: 30px;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(85, 4, 4);
+    color: #fff;
+}
+
+.categorias {
+    display: flex;
+    gap: 5rem;
+    margin-right: 30px;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 2rem;
+}
+
+.botao {
+    background-color: rgb(133, 5, 5);
+    color: white;
+    padding: 12px;
+    width: 120px;
+    border-radius: 35px;
+    border: none;
+}
+
+.bt1 {
+    width: 145px;
+    height: 42px;
+    background-color: darkred;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
+
+.bt2 {
+    width: 145px;
+    height: 42px;
+    background-color: rgb(85, 4, 4);
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+}
