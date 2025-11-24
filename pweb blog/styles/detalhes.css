@@ -20,6 +20,9 @@ main {
     margin-left: 30px;
     margin: 30px;
     margin-top: 20px;
+
+    position: fixed;
+    top: 0;
 }
 
 header {
@@ -30,6 +33,22 @@ header {
     color: #FDF0D5;
 }
 
+.header .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+#hero {
+    width: 100vw;
+    height: 100vh;
+    background: url('../imagens/blackmirror.jpeg') no-repeat;
+    background-size: cover;
+}
+.imagens{
+    display: flex;
+}
+
 .categorias {
     display: flex;
     gap: 5rem;
@@ -37,16 +56,13 @@ header {
 }
 
 .artigos {
-    margin-top: 20px;
     padding: 60px;
 }
 
 .btv {
-    padding: 50px;
     text-decoration: none;
-    background-color: #2F0000;
     color: #fff;
-    display: block;
+   
 }
 
 .ajustar {
@@ -64,6 +80,50 @@ header {
     color: #FDF0D5;
 }
 
+footer {
+    width: 100%;
+    padding: 50px 0;
+    background-color: #2F0000;
+    color: #FDF0D5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixaConteudo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+    width: 100%;
+    padding: 60px;
+}
+
 .conteudo {
-    margin-top: 25px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.seta {
+    position: absolute;
+    right: 40px;
+    padding: 15px;
+    background-color: #2F0000;
+    color: #FDF0D5;
+    border: 0.5px solid #FDF0D5;
+    border-radius: 50dvh;
+    cursor: pointer;
 }
