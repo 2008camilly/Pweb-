@@ -31,6 +31,7 @@ header {
     justify-content: center;
     background-color: #2F0000;
     color: #FDF0D5;
+    position: relative;
 }
 
 .header .wrapper {
@@ -44,6 +45,19 @@ header {
     height: 100vh;
     background: url('../imagens/blackmirror.jpeg') no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+
+#hero img {
+    position: absolute;
+    bottom: -200px;
+    left: 25%;
+    width: 50%;
+    height: 50%;
 }
 .imagens{
     display: flex;
